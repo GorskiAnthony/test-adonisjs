@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceci est mon test</title>
+  @entryPointStyles('app')
+  @entryPointScripts('app')
+</head>
+<body>
+
+
+  @if(!auth.user)
+    <p>Vous n'est pas connecté</p>
+  @else
+    <p>Hello {{ auth.user.email }} | <a href="/logout">Logout</a></p>
+  @end
+
+  <div style="padding-top: 5rem">
+    @!section('content')
+  </div>
+      
+</body>
+</html>
