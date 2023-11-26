@@ -8,20 +8,17 @@
 
 > Premier test sur adonisjs
 
-    
 ## Install
 
 ```sh
 yarn install
 ```
 
-
 ## Usage
 
 ```sh
-yarn run start
+yarn run dev
 ```
-
 
 ## Run tests
 
@@ -29,23 +26,16 @@ yarn run start
 yarn run test
 ```
 
-
 ## Auteur
 
 👤 **Anthony Gorski**
 
--   𝕏 - (Twitter): [@Gorski_Anthony](https://twitter.com/Gorski_Anthony)
--   GitHub: [@GorskiAnthony](https://github.com/GorskiAnthony)
-
+- 𝕏 - (Twitter): [@Gorski_Anthony](https://twitter.com/Gorski_Anthony)
+- GitHub: [@GorskiAnthony](https://github.com/GorskiAnthony)
 
 ## Affichez votre soutien
 
 Donnez un ⭐️ si ce projet vous a aidé !
----
-
-### 🗃️ Version
-
--   **v0.1.0** -
 
 ---
 
